@@ -1,0 +1,12 @@
+name = Access Type of administrative procedure
+description = Provides the Access Type of administrative procedure taxonomy
+core = 7.x
+package = Humanitarian Access
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = feeds
+dependencies[] = taxonomy
+features[ctools][] = feeds:feeds_importer_default:1
+features[features_api][] = api:1
+features[feeds_importer][] = type_of_administrative_procedure
+features[taxonomy][] = temporary_constraint_type

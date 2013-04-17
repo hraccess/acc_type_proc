@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Access Type of administrative procedure feature.
+ */
+
+include_once 'acc_type_proc.features.inc';
