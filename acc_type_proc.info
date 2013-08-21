@@ -8,5 +8,5 @@ dependencies[] = feeds
 dependencies[] = taxonomy
 features[ctools][] = feeds:feeds_importer_default:1
 features[features_api][] = api:1
-features[feeds_importer][] = type_of_administrative_procedure
-features[taxonomy][] = temporary_constraint_type
+features[feeds_importer][] = acc_type_of_administrative_procedure
+features[taxonomy][] = acc_temporary_constraint_type
